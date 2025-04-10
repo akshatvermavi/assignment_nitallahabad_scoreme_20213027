@@ -86,10 +86,10 @@ def extract_tables_from_pdf(pdf_path, output_excel):
 
 if __name__ == "__main__":
     input_pdf = "sample2.pdf"
-    input_pdf = "sample.pdf"
+    #input_pdf = "sample.pdf"
     input_pdf = "sample1.pdf"
     output_excel = "output2.xlsx"
-    output_excel = "output.xlsx"
+    #output_excel = "output.xlsx"
     output_excel = "output1.xlsx"
     
     extract_tables_from_pdf(input_pdf, output_excel)
